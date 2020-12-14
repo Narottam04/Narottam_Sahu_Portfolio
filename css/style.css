@@ -244,6 +244,11 @@ header .flex {
 }
 
 @media (max-width: 500px) {
+  /* utilities */
+  .l-heading {
+    font-size: 3rem;
+  }
+
   /* navbar */
   header .flex {
     display: flex;
@@ -255,7 +260,7 @@ header .flex {
   }
 
   .flex .nav-link {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
   }
 
   .flex .nav-link a {
@@ -317,11 +322,11 @@ header .flex {
     height: 200px;
   }
   .card img {
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
 
   .card p {
-    margin-right: 12rem;
+    margin-right: 14rem;
   }
   /* contact */
   #contact h1 {
@@ -331,12 +336,16 @@ header .flex {
   #contact input,
   #contact label,
   #contact textarea {
-    max-width: 350px;
+    max-width: 325px;
     margin-left: 1rem;
   }
   /* footer */
   #footer h1 {
     font-size: 1.5rem;
     padding-bottom: 0.2rem;
+  }
+
+  #footer .personal-link a {
+    padding-bottom: 2rem;
   }
 }
