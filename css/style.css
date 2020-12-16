@@ -201,12 +201,12 @@ header .flex {
 #contact .submit input {
   border: none;
   color: #fff;
-  background-color: #007acc;
+  background-color: #444;
   padding: 0.7rem 0;
 }
 
 #contact .submit input:hover {
-  background-color: cornflowerblue;
+  background-color: #333;
   cursor: pointer;
 }
 
@@ -271,6 +271,7 @@ header .flex {
   #welcome-section {
     display: flex;
     flex-direction: column;
+    height: 60vh;
   }
 
   #welcome-section .content-right {
@@ -299,7 +300,7 @@ header .flex {
 
   /* skills */
   #skills h1 {
-    padding-left: 2rem;
+    padding-left: 1rem;
   }
 
   .skills-img {
@@ -310,9 +311,13 @@ header .flex {
   .skills-img img {
     padding: 1rem 1rem;
     margin-right: 0.5rem;
+    margin-left: 1rem;
   }
 
   /* project */
+  #projects h1 {
+    padding-left: 1rem;
+  }
   .card .card-style {
     width: 300px;
     height: 200px;
