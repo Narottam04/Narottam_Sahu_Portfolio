@@ -274,7 +274,7 @@ header .flex {
   #welcome-section {
     display: flex;
     flex-direction: column;
-    height: 60vh;
+    height: 65vh;
   }
 
   #welcome-section .content-right {
