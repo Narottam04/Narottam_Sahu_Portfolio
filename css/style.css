@@ -139,6 +139,7 @@ header .flex {
 }
 
 .card .card-pong {
+  width: 600px;
   height: 400px;
 }
 
@@ -266,7 +267,7 @@ header .flex {
   }
 
   .flex .nav-link a {
-    padding: 0.65rem;
+    padding: 0 0.65rem;
   }
 
   /* welcome-section */
@@ -320,6 +321,22 @@ header .flex {
   #projects h1 {
     padding-left: 1rem;
   }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .card a {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+  }
+
   .card .card-style {
     width: 300px;
     height: 200px;
