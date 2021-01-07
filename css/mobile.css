@@ -14,14 +14,16 @@
     text-align: center;
   }
 
-  .flex .nav-link {
-    /* margin-left: 0.5rem; */
-    display: flex;
-    justify-content: center;
+  .nav-link {
+    margin: auto;
   }
 
-  .flex .nav-link a {
-    padding: 0 0.65rem;
+  .anim-ul a {
+    display: block;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
   }
 
   /* welcome-section */
@@ -81,30 +83,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    position: relative;
   }
-
-  .card a {
-    position: absolute;
-    left: 25%;
-    right: 25%;
-  }
-
-  .card .card-style {
+  .card-container {
     width: 300px;
     height: 200px;
   }
-  .card .card-pong {
-    width: 300px;
-    height: 200px;
-  }
-  .card img {
-    margin-left: 2rem;
-  }
 
-  .card p {
-    margin-right: 14rem;
+  .card-container img {
+    transition: all 0.5s;
+    width: 400px;
+    height: 200px;
   }
   /* contact */
   #contact h1 {

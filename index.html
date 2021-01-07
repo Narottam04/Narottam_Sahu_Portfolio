@@ -11,9 +11,10 @@
      <!-- CSS sheets -->
      <link rel="stylesheet" href="./css/style.css">
      <link rel="stylesheet" href="./css/mobile.css">
+     <!-- <link rel="stylesheet" href="./css/dark-mode.css"> -->
     <title>Narottam Sahu</title>
 </head>
-<body> 
+<body > 
     <!-- navbar -->
     <header>
         <nav  class="flex container">
@@ -21,10 +22,43 @@
                 <h1>Narottam Sahu</h1>
             </div>
             <div class="nav-link">
-                <a href="#about-me">About Me</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+                <ul class="anim-ul">
+                    <li>
+                        <a href="#about-me">About Me
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </li>
+            
+                    <li>  
+                        <a href="#skills">Skills
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </li>
+            
+                    <li>
+                        <a href="#projects">Projects
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </li>
+            
+                    <li>
+                        <a href="#contact">Contact
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </li>
+                </ul>
             </div> 
         </nav>
     </header>
@@ -108,49 +142,44 @@
             </div>
         </div>
     </section>
+    
     <!-- projects -->
     <section id="projects" class="container">
         <div class="project-title">
             <h1 class="l-1-heading">Projects</h1>
         </div>
         <div class="wrapper">
-            <div class="card">
-                <img src="./img/pong.jpeg" alt="Pong" class="card-pong" >
-                <p><a href="#">Pong</a></p>
-                <!-- <h1>Pong</h1>
-                <p>Made with turtle module in python</p>
-                <a href="#"><i class="fab fa-github fa-2x"></i></a>
-                <a href="#"><i class="fas fa-play-circle fa-2x"></i></a> -->
+            <div class="card-container">
+                <img src="./img/pong.jpeg" alt="image">
+                <div class="caption">
+                    <h1>Pong</h1>
+                    <p>Made with python and turtle module</p>
+                </div>
             </div>
-
-            <div class="card">
-                <img src="./img/ApnaTapri.png" alt="ApnaTapri" class="card-style">
-                <p><a href="#">Coffee Shop</a></p>
-                <!-- <h1>Coffee Shop</h1>
-                <p>Made with plain html and css and hosted in Github</p >
-                <a href="#"><i class="fab fa-github fa-2x"></i></a>
-                <a href="#"><i class="fas fa-play-circle fa-2x"></i></a> -->
+            <div class="card-container">
+                <img src="./img/js-doc.png" alt="image">
+                <div class="caption">
+                    <h1>Js Documentation </h1>
+                    <p>Made with HTML and CSS</p>
+                </div>
             </div>
-
-            <div class="card">
-                <img src="./img/hotel.png" alt="HOTEL BT" class="card-style" >
-                <p><a href="#">Hotel</a></p>
-                <!-- <h1>Hotel Website</h1>
-                <p>Made with plain html and css and hosted in Github</p>
-                <a href="#"><i class="fab fa-github fa-2x"></i></a>
-                <a href="#"><i class="fas fa-play-circle fa-2x"></i></a> -->
+            <div class="card-container">
+                <img src="./img/ApnaTapri.png" alt="image">
+                <div class="caption">
+                    <h1>Apna Tapri Shop</h1>
+                    <p>Made with HTML and CSS</p>
+                </div>
             </div>
-
-            <div class="card">
-                <img src="./img/js-doc.png" alt="js documentation" class="card-style">
-                <p><a href="#">Js Documentation</a></p>
-                <!-- <h1>Js Documentation</h1>
-                <p>Made with plain html and css and hosted in Github</p>
-                <a href="#"><i class="fab fa-github fa-2x"></i></a>
-                <a href="#"><i class="fas fa-play-circle fa-2x"></i></a> -->
-            </div>
+            <div class="card-container">
+                <img src="./img/hotel.png" alt="image">
+                <div class="caption">
+                    <h1>Hotel Website</h1>
+                    <p>Made with HTML and CSS</p>
+                </div>
+        </div>
         </div>
     </section>
+
     <!-- Contact  -->
     <section id="contact" class="container">
         <div class="title">
@@ -159,11 +188,11 @@
         <form action="#">
             <div class="name-info">
                 <label for="name">Name</label>
-                <input type="name" id="name" name="name" placeholder="Enter your name">
+                <input type="name" id="name" name="name" placeholder="Enter your name" required>
             </div>
             <div class="email-info">
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
             </div>
             <div class="message">
                 <label for="message">Message</label>
